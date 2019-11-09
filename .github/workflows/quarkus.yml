@@ -14,4 +14,7 @@ jobs:
         with:
           java-version: 1.8
       - name: Build with Gradle
-        run: cd quarkus-getting-started/ && chmod +x gradlew && ./gradlew assemble test
+        run: |
+          cd quarkus-getting-started
+          chmod +x gradlew
+          ./gradlew assemble test
