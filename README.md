@@ -5,3 +5,4 @@ The repo for my article series about Quarkus and how to use it to develop and de
 ## Quarkus - Develop Your First Supersonic Enterprise Java Application
 
 * Article: [Quarkus - Develop Your First Supersonic Enterprise Java Application](https://www.thomasvitale.com/quarkus-getting-started/)
+* Project: [`quarkus-getting-started`](https://github.com/ThomasVitale/quarkus-tutorials/tree/master/quarkus-getting-started)
