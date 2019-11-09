@@ -16,4 +16,4 @@ jobs:
       - name: Grant execute permission for gradlew
         run: chmod +x quarkus-getting-started/gradlew
       - name: Build with Gradle
-        run: cd quarkus-getting-started/ && ./gradlew assemble test
+        run: cd quarkus-getting-started/ && chmod +x gradlew && ./gradlew assemble test
